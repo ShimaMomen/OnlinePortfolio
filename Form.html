@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+      <link href="assets/css/formcss.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+    
+
+
+ <div class="container">
+  <header class="box header">
+      <div class="headerleft"></div>
+      <div class="headercenter">
+        <h1>Youth Summer Camp Donation Form</h1><br>
+        <p><strong>We appreciate your donation to our Summer Camp</strong></p>
+
+      </div>
+      <div class="headerright"></div>
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+  </header>
+  <aside class="box aside">
+    <div class="asideup">
+      <p>Protect Our Planet Contribute to Vital Conservation Efforts and Support a better Future.</p>
+      <p>Ordinary monetary donations for any amount are always welcome. These support the general work of us.</p>
+      <img src="assets/img/portfolio/camp.jpg" alt="camp" style="display: block; width: 100%; height: auto;"><br>
+      <p>Thank you for considering a contribution to our upcoming Auction! Your generous donation will directly support and help us</p>
+      
+    </div>
+ 
+
+
+
+
+
+
+
+  </aside>
+  <section class="box section"> 
+
+  <form class="Donationform box" action="thank you.php" method="post">
+    
+    <label for="amount">I want to give <input type="number" name="amount" id="amount" min="5" max="100" step="1"> € monthly toward:</label>
+    
+  
+    <div class="image-checkbox first">
+   
+    <label class="checkbox-label"> <img src="assets/img/portfolio/snack-picnic.jpg" alt="woman hand enjoying snack at picnic">
+    <input type="checkbox"  name="toward">Food & Kitchen</label>
+     
+    </div>
+
+    <div class="image-checkbox second">
+    <label class="checkbox-label">  <img src="assets/img/portfolio/travel-collection.jpg" alt="travel still life collection">
+      <input type="checkbox" name="toward" >Supplies & Equipment</label>
+    </div>
+
+    
+   
+    <h3 class="id">Enter your information below</h3>
+    <div class="customer_fname"><label for="customer_fname">First name </label><br>
+    <input type="text" name="customer_fname" id="customer_fname" required></div>
+
+    <div class="customer_lname"><label for="customer_lname">Last name </label><br>
+    <input type="text" name="customer_lname" id="customer_lname" required></div>
+
+    <div class="country"><label for="country">Country</label><br>
+      <select id="country" name="country">
+       <option value="Germany">Germany</option>
+       <option value="Austria">Austria</option>
+       <option value="France">France</option>
+       <option value="Switzerland">Switzerland</option>
+    </select></div>
+
+
+    <div class="email"><label for="email_address">Email</label><br>
+    <input type="email" name="email_address" id="email_address"></div>
+
+    
+  
+   
+
+    
+    <h3 class="pd">Enter payment details</h3>
+    <div class="credit"><label for="ccn">Credit card number</label><br>
+    <input type="text" name="ccn" id="ccn" required></div>
+
+    <div class="chname"><label for="cname">Card holder name</label>
+    <input type="text" name="cname" id="cname" required></div>
+
+
+
+    <div class="cvvc"><label for="cvv">CVV / CVC *</label><br>
+    <input type="text" name="cvv" id="cvv" required></div>
+
+    <div class="ed"><label for="expire_date">Expire Date</label><br>
+    <input type="text" id="expire_date" name="expire_date" placeholder="MM/YY" required></div>
+    
+
+  
+
+    <button id="submit">Submit donation</button>
+
+   </form>
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+  <footer class="box footer">footer</footer>
+
+
+
+
+
+ </div>  
+        
+</body>
+</html>
